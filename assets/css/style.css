@@ -1,0 +1,82 @@
+#nav-one{
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    margin-left: 0px;
+    top: 0px;
+    float: left;
+}
+
+.nav-item{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#name{
+    color: white;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    position: relative;
+    font-size: 24px;
+    top: 50%;
+    text-align: center;
+}
+
+#nav-two{
+    background-color: white;
+    border: 1px solid #cccccc;
+    height: 80px;
+}
+
+#main-background{
+    background-image: url('../../assets/images/cork-board.png');
+    padding: 100px;
+}
+
+
+#bio-para-box{
+    background-color: white; 
+    border: 1px solid #cccccc;
+    width: 960px;
+}
+
+#profile{
+    float: left;
+    height: 100px;
+    margin: 10px;
+}
+
+.text-wrap.bd-highlight{
+    width: 925px; 
+    margin-left: 10px;
+}
+
+.para-head{
+    color: #4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.body-text{
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.card-footer.text-muted{
+    background-color: #666666;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 100%;
+    border-top: 8px solid #4aaaa5;
+}
+
+.form-control{
+    width: 200px;
+}
+
+#exampleFormControlTextarea1{
+    width: 200px;
+    height: 200px;
+}
