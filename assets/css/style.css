@@ -1,8 +1,6 @@
 #nav-one{
     background-color: #4aaaa5;
-    width: 250px;
     height: 80px;
-    padding: 10px;
     border: 1px solid #cccccc;
     margin-left: 0px;
     top: 0px;
@@ -18,7 +16,6 @@
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     position: relative;
     font-size: 24px;
-    top: 50%;
     text-align: center;
 }
 
@@ -38,6 +35,8 @@
     background-color: white; 
     border: 1px solid #cccccc;
     width: 960px;
+    margin-left: 150px;
+    position: relative;
 }
 
 #profile{
@@ -47,8 +46,7 @@
 }
 
 .text-wrap.bd-highlight{
-    width: 925px; 
-    margin-left: 10px;
+    margin: auto;
 }
 
 .para-head{
@@ -59,9 +57,54 @@
 }
 
 .body-text{
+    margin: 10px;
     padding: 1px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+}
+
+form{
+    width: auto;
+    margin: 10px;
+}
+
+#picture-row{
+    padding: 10px;
+}
+
+.col-md-2{
+    height: 150px;
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    color: #ffffff;
+}
+
+#project-box-1{
+    background-image: url('../images/snail2.jpg');
+}
+
+#project-box-2{
+    background-image: url('../images/Download.jpg');
+}
+
+#project-box-3{
+    background-image: url('../images/dog_placeholder.jpg');
+}
+
+#project-box-4{
+    background-image: url('../images/giraffe_placeholder.jpg');
+}
+
+#project-box-5{
+    background-image: url('../images/pig_placeholder.jpg');
+}
+
+.name-banner{
+    background-color: #666666;
+    border: 2px solid #4aaaa5;
+    position: relative;
+    margin: 5px;
 }
 
 .card-footer.text-muted{
@@ -70,13 +113,4 @@
     text-align: center;
     margin-bottom: 100%;
     border-top: 8px solid #4aaaa5;
-}
-
-.form-control{
-    width: 200px;
-}
-
-#exampleFormControlTextarea1{
-    width: 200px;
-    height: 200px;
 }

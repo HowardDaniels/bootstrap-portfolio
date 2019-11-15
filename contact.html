@@ -8,48 +8,72 @@
 </head>
 
 <body>
-<div class="container">
-        <div class="container" id="nav-one">
-          <div id="name"><strong>Howard Daniels</strong></div>
-        </div>
-                    <ul class="nav justify-content-end" id="nav-two">        
-                <li class="nav-item">
-                  <a class="nav-link active" href="index.html">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-              </ul>
-              </div>
-              <div class="container" id="main-background">
-              <div class="container" id="bio-para-box">
-                <div class="para-head"><strong>Contact</strong></div>
-                <hr>
-              <div class="text-wrap bd-highlight">
-                <p class="text-center">
-                    <form>
-                        <div class="form-group">
-                            <label for="formGroupExampleInput" class="body-text">Name</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1" class="body-text">Email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1" class="body-text">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
-                        </div>
-                    </form>
-                </p>
-            </div>
+  <div class="row">
+    <div class="col-md-3" id="nav-one">
+      <div id="name"><strong>Howard Daniels</strong></div>
+    </div>
+
+    <div class="col-md-9">
+      <ul class="nav justify-content-end" id="nav-two">        
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">About Me</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+                
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row" id="main-background">
+
+    <div id="bio-para-box">
+      <div class="para-head"><strong>Contact</strong></div>
+        <hr>
+        <br>
+
+        <form class="col-md-3">
+
+          <div class="form-group">
+            <label for="formGroupExampleInput" class="body-text">Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput">
           </div>
-        </div>
-            <div class="card-footer text-muted">
-            </div>
-                  </div>      
+
+          <br>
+
+          <div class="form-group">
+            <label for="exampleFormControlInput1" class="body-text">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1">
+          </div>
+
+          <br>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1" class="body-text">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+          </div>
+
+          <br>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+                    
+        <br>
+
+    </div>
+
+  </div>
+  
+  <div class="card-footer text-muted">
+
+  </div>
+
 </body>
+
 </html>
