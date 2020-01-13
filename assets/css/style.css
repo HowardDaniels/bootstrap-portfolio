@@ -85,19 +85,19 @@ form{
 }
 
 #project-box-2{
-    background-image: url('../images/Download.jpg');
+    background-image: url('../images/ornament.jpg');
 }
 
 #project-box-3{
-    background-image: url('../images/dog_placeholder.jpg');
+    background-image: url('../images/meeting.jpg');
 }
 
 #project-box-4{
-    background-image: url('../images/giraffe_placeholder.jpg');
+    background-image: url('../images/sunrisesunset.jpg');
 }
 
 #project-box-5{
-    background-image: url('../images/pig_placeholder.jpg');
+    background-image: url('../images/dailymesh.jpg');
 }
 
 .name-banner{
@@ -107,10 +107,11 @@ form{
     margin: 5px;
 }
 
-.card-footer.text-muted{
+.card-footer{
     background-color: #666666;
     height: 50px;
     text-align: center;
     margin-bottom: 100%;
     border-top: 8px solid #4aaaa5;
+    color: white;
 }
