@@ -72,7 +72,7 @@ hr{
 
 form{
     width: auto;
-    margin: 10px;
+  /*  margin: 10px;  */
 }
 
 #picture-row{
