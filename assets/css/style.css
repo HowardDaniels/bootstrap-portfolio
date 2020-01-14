@@ -27,6 +27,7 @@
 
 #main-background{
     background-image: url('../../assets/images/cork-board.png');
+    height: 640px;
     padding: 100px;
 }
 
@@ -35,6 +36,7 @@
     background-color: white; 
     border: 1px solid #cccccc;
     width: 960px;
+    height: auto;
     margin-left: 150px;
     position: relative;
 }
@@ -54,6 +56,7 @@
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-size: 24px;
     padding: 10px;
+    width: 720px;
 }
 
 .body-text{
@@ -70,6 +73,8 @@ form{
 
 #picture-row{
     padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .col-md-2{
@@ -111,7 +116,10 @@ form{
     background-color: #666666;
     height: 50px;
     text-align: center;
-    margin-bottom: 100%;
+  /*  margin-bottom: 100%; */
+  bottom: 0;
     border-top: 8px solid #4aaaa5;
     color: white;
+    position: sticky;
+    width: 100%;
 }
