@@ -59,6 +59,10 @@
     width: 720px;
 }
 
+hr{
+    visibility: visible;
+}
+
 .body-text{
     margin: 10px;
     padding: 1px;
