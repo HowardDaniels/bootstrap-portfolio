@@ -90,23 +90,33 @@ form{
 }
 
 #project-box-1{
-    background-image: url('../images/keyboard.jpg');
+    background-image: url("../images/password-generator-snip.PNG");
+    background-position: center;
+    background-size: 150px 150px;
 }
 
 #project-box-2{
-    background-image: url('../images/ornament.jpg');
+    background-image: url("../images/code-quiz-snip.PNG");
+    background-position: center;
+    background-size: 150px 150px;
 }
 
 #project-box-3{
-    background-image: url('../images/meeting.jpg');
+    background-image: url("../images/day-planner-snip.PNG");
+    background-position: center;
+    background-size: 150px 150px;
 }
 
 #project-box-4{
-    background-image: url('../images/sunrisesunset.jpg');
+    background-image: url("../images/weather-dashboard-snip.PNG");
+    background-position: center;
+    background-size: 150px 150px;
 }
 
 #project-box-5{
-    background-image: url('../images/dailymesh.jpg');
+    background-image: url("../images/the-daily-mesh-snip.PNG");
+    background-position: center;
+    background-size: 150px 150px;
 }
 
 #portfolio-text{
