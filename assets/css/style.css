@@ -27,7 +27,7 @@
 
 #main-background{
     background-image: url('../../assets/images/cork-board.png');
-    height: 640px;
+    height: auto;
     padding: 100px;
 }
 
@@ -125,9 +125,9 @@ form{
     height: 50px;
     text-align: center;
   /*  margin-bottom: 100%; */
-  bottom: 0;
+    bottom: 0;
     border-top: 8px solid #4aaaa5;
     color: white;
     position: sticky;
-    width: 100%;
+    max-width: 2000px;
 }
