@@ -109,6 +109,10 @@ form{
     background-image: url('../images/dailymesh.jpg');
 }
 
+#portfolio-text{
+    margin-left: 50px;
+}
+
 .name-banner{
     background-color: #666666;
     border: 2px solid #4aaaa5;
