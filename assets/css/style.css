@@ -81,6 +81,18 @@ form{
     margin-right: 50px;
 }
 
+#picture-row-2{
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#picture-row-3{
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .col-md-2{
     height: 150px;
     margin: 10px;
